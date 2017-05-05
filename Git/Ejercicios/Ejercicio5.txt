@@ -1,0 +1,10 @@
+***** Practicando rebase
+
+- Crear 2 commit con dos touch 1,2
+- Crear una rama rebase
+- Crear dos commit touch a y b
+- Crear un commit touch más (3)
+- Poner en la rama que vamos a hacer el rebase
+y fusionar mediante rebase
+    - git rebase rama
+    - git merege ramarebase

@@ -1,0 +1,15 @@
+*** Git commit -am "0 - Empieza el proyecto de marca personal" --amend
+
+- Cambiar el titulo y hacer commit
+- Cambiar la descripción y hacer commit
+- Crear una rama "paisaje"
+
+- Buscar otra imagen y cambiar el fondo
+- Volver a la rama master y cambiar algo en el footer y hacer un commit descriptivo
+- Cambiar algo en el titulo y hacer commit
+- Volver a la rama paisaje y cambiar el titulo y hacer commit
+- HAcer fusion merge
+
+Minuto 52.
+
+C:/Users/juanf/OneDrive/Documents/Cursos/Platzi/Git/Proyectos

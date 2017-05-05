@@ -1,0 +1,26 @@
+*** Crear el primer repositorio, add, commit, status, log, alias
+
+
+Ejercicio 1 del curso de git de platzi:
+  - Descargar el zip de github.com/platzi/git y descomprimirlo
+  - Situarme con la consola en la carpeta donde se ha descomprimido el proyecto(ls+cd)
+  - Iniciar el repositorio git (git init)
+  - Ver nuestra estructura del repositorio (git status)
+  - Añadir los archivos al paquete que estamos preparando para nuestra primera
+  version (git add archivo)
+  - Comprobar nuestro paso con git status
+  - Subir todos los archivos git add -A
+  - Lanzar los archivos a nuestra primera version. git commit -m "Descripcion"
+***Hasta aquí hemos creado nuestro primer repositorio y nuestra primera iteración
+básica. Ahora seguimos uniendo nuestro proyecto con un editor y Git
+  - Abrir nuestro proyecto en el editor
+  - Hacer un cambio en el index.
+  - Comprobar en la terminal git si se ha hecho el cambio con git status
+  - Añadir el archivo modificado al paquete.
+  - Hacer commit
+  - Volver a hacer lo mismo con otro cambio.
+  - Mostrar el historial del proyecto con git log
+    git log --oneline
+    git log --oneline --graph
+*** Crear un alias:
+  git config --global alias.nombrecomando "comandos"

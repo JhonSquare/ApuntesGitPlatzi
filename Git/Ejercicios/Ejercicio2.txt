@@ -1,0 +1,14 @@
+Ejercicio 2:
+*** Git reset --hard
+- Hacer tres cambios en el proyecto y tres commit
+- Volver tres pasos atras con git reset --hard id del commit al que regresar.
+- Regresar a los tres cambios ya realizados.
+*** Git reset --mixed [sha commit]
+Encapsula los commits pero sin preparlos para el siguiente commit
+*** Git reset --soft
+Encapsula los commits y los deja prepararados para el siguiente commit
+*** git checkout
+- Regresas a un commit puntual para explorar.
+
+No se puede volver a un punto y guardar los commits que vienen despues de este
+punto para eso estan las ramas.

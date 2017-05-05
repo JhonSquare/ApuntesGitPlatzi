@@ -1,0 +1,49 @@
+*** RAMAS, FUSIONES, REBASE
+
+FUSION junta el ultimo commit de la rama maestro con el ultimo commit de la rama
+que hayamos creado
+
+REBASE pone todos los commits de la rama que querramos despues de del ultimo
+commit de la rama master creando una unica rama
+
+- git checkout para moverte entre ramas
+- git checkout master -> moverte a la rama maestra
+- git checkout mi-rama -> moverte a la rama que quieras
+
+Ejercicio:
+- Hacer 3 commits:
+  1. Crear(touch) un archivo llamado 1.txt
+  2. Crear(touch) un archivo llamado 2.txt
+  3. Crear(touch) un archivo llamado 3.txt
+- Crear una rama llamada experimental (git checkout -b "nombre de la rama"
+- Hacer 3 commits en la rama experimental:
+  A Crear(touch) un archivo llamado A.txt
+  B Crear(touch) un archivo llamado B.txt
+  C Crear(touch) un archivo llamado C.txt
+- Volver a la rama master y hacer un commit con un touch 4.txt
+
+-Fusionar las dos ramas:
+*git merge "Rama que quieres fusionar"
+*O para escribir, ESC para dejar de editar, :x para guardar el archivo
+
+**** Hasta aqui la fusion fast-forward
+**** Ahora el Manual merge:
+
+- Borra la rama experimental (git branch -d experimental)
+Crea 3 commits:
+  X. Crear(touch) un archivo llamado X.txt
+  Y. Crear(touch) un archivo llamado Y.txt
+  Z. Crear(touch) un archivo llamado Z.txt
+- Editar X.txt y no subir el cambio
+- Crear la rama experimental2
+- Hacer el commit(hola mundo) de X.txt en esta rama.
+- Volver a la rama master y editar X.txt (Comprobar que lo que estabamos editando
+en la rama experimental2 desaparece)
+- Hacer el commit (quierido mundo)
+- Hacer una fusion. (Manual Merge)
+- Aparecera el conflicto en nuestro editor y alli escogeremos la opcion que más
+nos guste; guardaremos y crearemos un commit "Fusion realizada"
+
+Minuto 42.
+
+C:/Users/juanf/OneDrive/Documents/Cursos/Platzi/Git/Proyectos

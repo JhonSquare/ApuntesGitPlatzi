@@ -1,0 +1,18 @@
+**** HEAD y LOG
+
+- HEAD POINTER: Te indica puntualmente dónde te encuentras.
+git commit -m "Sustituir el ultimo cambio" --amend
+- Comandos gitlog:
+  git log --oneline
+  git log --decorate
+  git log --stat
+  git log -p
+  git shortlog
+  git log --graph --oneline --decorate
+  git log --pretty=format:"%cn hizo un desarrollo el dia %cd"
+  git log -3 (filtros)
+    git log --before="today"
+    etc
+  git log --grep="plantilla"
+  git log --index.html
+  más en git-scm.com
