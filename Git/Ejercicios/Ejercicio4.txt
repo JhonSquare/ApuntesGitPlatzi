@@ -9,7 +9,3 @@
 - Cambiar algo en el titulo y hacer commit
 - Volver a la rama paisaje y cambiar el titulo y hacer commit
 - HAcer fusion merge
-
-Minuto 52.
-
-C:/Users/juanf/OneDrive/Documents/Cursos/Platzi/Git/Proyectos

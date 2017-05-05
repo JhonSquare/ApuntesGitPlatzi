@@ -43,7 +43,3 @@ en la rama experimental2 desaparece)
 - Hacer una fusion. (Manual Merge)
 - Aparecera el conflicto en nuestro editor y alli escogeremos la opcion que más
 nos guste; guardaremos y crearemos un commit "Fusion realizada"
-
-Minuto 42.
-
-C:/Users/juanf/OneDrive/Documents/Cursos/Platzi/Git/Proyectos
