@@ -1,0 +1,14 @@
+FORKED.
+En los trabajos colaborativos es 100% recomendable antes de hacer un push,
+descargarse la ultima version del proyecto y fusionar con tu commit.
+
+Esto se hace con los comandos FETCH (descargar) Y MERGE (fusionar)
+
+Ejercicio:
+
+- github.com/MiguelNieva/equipo
+Desde github se puede añadir a los colaboradores que con los que quieras
+trabajar...
+
+antes de hacer un push,
+descargarse la ultima version del proyecto y fusionar con tu commit
