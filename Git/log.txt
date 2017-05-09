@@ -1,0 +1,1 @@
+Descripcion: Lista de ejercicios mezclados con teoría del curso git de platzi (https://platzi.com/)
