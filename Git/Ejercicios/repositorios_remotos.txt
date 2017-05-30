@@ -14,6 +14,22 @@ descargarse la ultima version del proyecto y fusionar con tu commit
 
 Proyecto de terceros:
 
-Ejercicio:
+Forked - Propuestas
 
-Hacer un forked al repositorio de Ruby On rails
+Existen tres ramas cuando haces trabajo colaborativo para terceros:
+A)  Rama master :=> Lo que trabajas en local
+B)  Rama upstream :=> De donde recibes los cambios del proyecto de terceros
+C)  Rama origin :=> Tu conexion con el repositorio de github.
+
+<u>Ejercicio:</u>
+
+Hacer un forked al repositorio de Ruby On rails.
+
+1.- Crear una replica del repositorio de Ruby On Rails en mi github
+2.- Bajar el repositorio en local tanto el repositorio original como el remoto:
+  - Esto se consigue gracias a los remotos:
+    - git remote origin repositorio-replica de github
+    - git remote upstream repositorio original de github
+    despues hacer un fetch de los dos. Recuerda: *antes de hacer un push,
+    descargarse la ultima version del proyecto y fusionar con tu commit*
+    - fetch origin/master
